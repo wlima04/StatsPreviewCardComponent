@@ -7,7 +7,7 @@ body{
 .container{
     background-color: hsl(244, 38%, 16%);
     display: flex;
-    max-width: 80%;
+    max-width: 75%;
     max-height: 370px;
     border-radius: 7px;
     position: absolute;
@@ -19,11 +19,14 @@ body{
 
 .textMain{
     color: white;
-    max-width: 800px;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 90px;
 }
 
 .photo{
-    width: 400px;
+    width: 450px;
     height: 370px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -31,6 +34,38 @@ body{
 
 .colorInsights{
     color: hsl(277, 64%, 61%)
+}
+
+.companies{
+    position: absolute;
+    top: 75%;
+    font-size: 20px;
+}
+
+.textCompanies{
+    font-size: 13px;
+}
+
+.templates{
+    position: absolute;
+    top: 75%;
+    left: 208px;
+    font-size: 20px;
+}
+
+.textTemplates{
+    font-size: 13px;
+}
+
+.queries{
+    position: absolute;
+    top: 75%;
+    left: 330px;
+    font-size: 20px;
+}
+
+.textQueries{
+    font-size: 13px;
 }
 
 .attribution{
